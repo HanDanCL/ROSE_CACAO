@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose Cacao | Pâtisserie & Café</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">
+                Rose Cacao
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2C8 2 4 6 4 12C4 18 8 22 12 22C16 22 20 18 20 12C20 6 16 2 12 2Z" fill="currentColor"/>
+                  <path d="M12 2C9 6 9 18 12 22" stroke="var(--dominant)" stroke-width="1.5"/>
+                  <path d="M8 5C5 8 5 16 8 19" stroke="var(--dominant)" stroke-width="1.5"/>
+                  <path d="M16 5C19 8 19 16 16 19" stroke="var(--dominant)" stroke-width="1.5"/>
+                </svg>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Accueil</a>
+                <a href="#offerings">Nos Spécialités</a>
+                <a href="#gallery">Galerie</a>
+                <a href="#about">À Propos</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="mobile-menu-btn" id="menuBtn">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Un Goût d'Élégance à Baie-Saint-Paul</h1>
+                <p>Bienvenue chez Rose Cacao, un sanctuaire de calme où la pâtisserie exquise rencontre le café artisanal. Laissez-vous tenter par nos gâteaux et douceurs magnifiquement confectionnés, parfaits pour vos moments spéciaux.</p>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <a href="#gallery" class="btn btn-primary">Voir Nos Créations</a>
+                    <a href="#contact" class="btn btn-outline">Nous Visiter</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/pistac1.jpg" alt="Gâteau Signature Rose Cacao">
+            </div>
+        </div>
+    </section>
+
+    <!-- Offerings Section -->
+    <section id="offerings" class="offerings">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">Nos Spécialités</h2>
+                <p class="section-subtitle">Découvrez une sélection soignée de délices conçus pour apporter de la joie à votre journée, d'un simple café matinal à la plus grandiose célébration de mariage.</p>
+            </div>
+            
+            <div class="offerings-grid">
+                <div class="offering-card">
+                    <div class="offering-icon">☕</div>
+                    <h3>Café Artisanal</h3>
+                    <p>Profitez d'un moment de tranquillité avec notre café artisanal savamment infusé, le parfait accompagnement pour nos pâtisseries.</p>
+                </div>
+                <div class="offering-card">
+                    <div class="offering-icon">🍰</div>
+                    <h3>Pâtisserie</h3>
+                    <p>Des pâtisseries élégantes et fraîches du jour, confectionnées avec les meilleurs ingrédients pour satisfaire votre palais raffiné.</p>
+                </div>
+                <div class="offering-card">
+                    <div class="offering-icon">💍</div>
+                    <h3>Gâteaux de Mariage</h3>
+                    <p>Rendez votre journée spéciale inoubliable avec nos gâteaux de mariage élégants et conçus sur mesure.</p>
+                </div>
+                <div class="offering-card">
+                    <div class="offering-icon">🎉</div>
+                    <h3>Gâteaux d'Anniversaire</h3>
+                    <p>Célébrez les étapes importantes de la vie avec nos gâteaux d'anniversaire personnalisés, cuits avec amour et attention aux détails.</p>
+                </div>
+                <div class="offering-card">
+                    <div class="offering-icon">🧁</div>
+                    <h3>Cupcakes Décorés</h3>
+                    <p>De délicieux cupcakes décorés avec art pour toute occasion, offrant une bouchée de luxe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">Nos Chefs-d'œuvre</h2>
+                <p class="section-subtitle">Un avant-goût visuel de ce que nous créons avec passion et dévouement.</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="img/wedding1.jpeg" alt="Gâteau de Mariage Élégant">
+                    <div class="gallery-overlay">
+                        <h3>Élégance de Mariage</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/birthday1.jpg" alt="Gâteau d'Anniversaire Classique">
+                    <div class="gallery-overlay">
+                        <h3>Classiques d'Anniversaire</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/candycake1.jpeg" alt="Gâteau aux Bonbons">
+                    <div class="gallery-overlay">
+                        <h3>Douces Délices</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/barbiecake.jpeg" alt="Gâteau Thématique">
+                    <div class="gallery-overlay">
+                        <h3>Créations Thématiques</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/pikachu1.jpg" alt="Gâteau Pikachu">
+                    <div class="gallery-overlay">
+                        <h3>Magie de Pikachu</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/gelattocake1.jpeg" alt="Gâteau Gelato">
+                    <div class="gallery-overlay">
+                        <h3>Gâteaux Gelato</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/bearcake1.jpeg" alt="Gâteau Thème Ours">
+                    <div class="gallery-overlay">
+                        <h3>Designs Ludiques</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/carscake1.jpg" alt="Gâteau Thème Voitures">
+                    <div class="gallery-overlay">
+                        <h3>Célébrations Sur Mesure</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-image">
+                <img src="img/churrocake1.jpeg" alt="Gâteau aux Churros chez Rose Cacao">
+            </div>
+            <div>
+                <h2>Bienvenue dans Notre Pâtisserie</h2>
+                <p>Située au cœur de la magnifique ville de Baie-Saint-Paul, au Québec, Rose Cacao est bien plus qu'une simple boulangerie : c'est un espace chaleureux et accueillant pour la communauté. Nous avons conçu notre boutique comme un refuge paisible pour les adultes et les personnes plus âgées qui apprécient les bonnes choses de la vie.</p>
+                <p>Que vous vous arrêtiez pour un café tranquille le matin, que vous preniez une douceur pour un être cher ou que vous vous asseyiez avec nous pour concevoir le gâteau de mariage de vos rêves, nous vous promettons une expérience enracinée dans la qualité, le soin et l'élégance.</p>
+                <br>
+                <a href="#contact" class="btn btn-outline" style="border-color: var(--dominant); color: var(--dominant);">Contactez-nous</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Rose Cacao</h4>
+                    <p>Une pâtisserie et un café chaleureux à Baie-Saint-Paul, QC. Gâteaux élégants, douceurs et café artisanal.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Nous Visiter</h4>
+                    <p><strong>Adresse :</strong><br>20, rue Sainte-Anne</p>
+                    <p>Baie-Saint-Paul, QC</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact & Heures d'ouverture</h4>
+                    <p><strong>Téléphone :</strong> +1 418-559-7562</p>
+                    <p><strong>Heures :</strong><br>Mercredi - Dimanche</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rose Cacao. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>
